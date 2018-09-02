@@ -13,5 +13,5 @@ function reqListener4() {
 }
 var oReq4 = new XMLHttpRequest();
 oReq4.onload = reqListener4;
-oReq4.open("get", "http://fe.it-academy.by/Examples/test_JSE.txt", true);
+oReq4.open("get", "https://fe.it-academy.by/Examples/test_JSE.txt", true);
 oReq4.send();

@@ -29,5 +29,5 @@ function reqListener2() {
 }
 const oReq2 = new XMLHttpRequest();
 oReq2.onload = reqListener2;
-oReq2.open("get", "http://fe.it-academy.by/Examples/test_JSE.json", true);
+oReq2.open("get", "https://fe.it-academy.by/Examples/test_JSE.json", true);
 oReq2.send();
